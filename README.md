@@ -1,2 +1,2 @@
 # AVG-LLaVA
-Code for "AVG-LLaVA: A Multimodal Large Model with Adaptive Visual Granularity"
+The code will be released soon
