@@ -2,7 +2,7 @@
 
 *An LMM that can adaptively select the appropriate visual granularity based on the input image and instruction.*
 
-[[Paper](https://arxiv.org/abs/2410.02745)] [[Model Zoo](https://github.com/DeepLearnXMU/AVG-LLaVA/lob/main/docs/MODEL_ZOO.md)]
+[[Paper](https://arxiv.org/abs/2410.02745)] [[Model Zoo](https://github.com/DeepLearnXMU/AVG-LLaVA/blob/master/docs/MODEL_ZOO.md)]
 
 
 
@@ -15,8 +15,8 @@
 - [Install](#install)
 - [AVG-LLaVA](#AVG-LLaVA)
 - [Demo](#Demo)
-- [Model Zoo](https://github.com/DeepLearnXMU/AVG-LLaVA/blob/main/docs/MODEL_ZOO.md)
-- [Dataset](https://github.com/DeepLearnXMU/AVG-LLaVA/blob/main/docs/Data.md)
+- [Model Zoo](https://github.com/DeepLearnXMU/AVG-LLaVA/blob/master/docs/MODEL_ZOO.md)
+- [Dataset](https://github.com/DeepLearnXMU/AVG-LLaVA/blob/master/docs/Data.md)
 - [Train](#train)
 - [Evaluation](#evaluation)
 
@@ -90,7 +90,7 @@ eval_model(args)
 </details>
 
 ## AVG-LLaVA Weights
-Please check out our [Model Zoo](https://github.com/DeepLearnXMU/AVG-LLaVA/blob/main/docs/MODEL_ZOO.md) for all public checkpoints.
+Please check out our [Model Zoo](https://github.com/DeepLearnXMU/AVG-LLaVA/blob/master/docs/MODEL_ZOO.md) for all public checkpoints.
 
 ## Demo
 
@@ -184,20 +184,20 @@ Our first two training stages are exactly the same as LLaVA-NeXT, please refer t
 
 You may download pretrained LLaVA-NeXT (after stage1 and stage2 training) in [Model Zoo](https://huggingface.co/Lin-Chen/open-llava-next-vicuna-7b).
 
-Training script with DeepSpeed ZeRO-3: [`stage3.sh`](https://github.com/DeepLearnXMU/AVG-LLaVA/blob/main/scripts/avg_llava/stage3.sh).
+Training script with DeepSpeed ZeRO-3: [`stage3.sh`](https://github.com/DeepLearnXMU/AVG-LLaVA/blob/master/scripts/avg_llava/stage3.sh).
 
 
-If you are interested in finetuning AVG-LLaVA to your own task/data, please check out [`Finetune_Custom_Data.md`](https://github.com/DeepLearnXMU/AVG-LLaVA/blob/main/docs/Finetune_Custom_Data.md).
+If you are interested in finetuning AVG-LLaVA to your own task/data, please check out [`Finetune_Custom_Data.md`](https://github.com/DeepLearnXMU/AVG-LLaVA/blob/master/docs/Finetune_Custom_Data.md).
 
 ### Stage 4 Training
 
 You may download AVG-LLaVA-Stage3 in [Model Zoo](https://huggingface.co/zhibinlan/AVG-LLaVA-Stage3), which is the model after the third stage of training.
 
-Training script with DeepSpeed ZeRO-3: [`stage4.sh`](https://github.com/DeepLearnXMU/AVG-LLaVA/blob/main/scripts/avg_llava/stage4.sh).
+Training script with DeepSpeed ZeRO-3: [`stage4.sh`](https://github.com/DeepLearnXMU/AVG-LLaVA/blob/master/scripts/avg_llava/stage4.sh).
 
 ## Evaluation
 
-See [lmms-eval](https://github.com/DeepLearnXMU/AVG-LLaVA/blob/main/lmms-eval).
+See [lmms-eval](https://github.com/DeepLearnXMU/AVG-LLaVA/blob/master/lmms-eval).
 
 
 ## Citation
