@@ -82,7 +82,6 @@ args = type('Args', (), {
     "top_p": None,
     "num_beams": 1,
     "max_new_tokens": 512,
-    "vis_token_granularity": 576,
 })()
 
 eval_model(args)
@@ -221,5 +220,5 @@ If you find AVG-LLaVA useful for your research and applications, please cite usi
 
 - [LLaVA-M3](https://github.com/mu-cai/matryoshka-mm): An LMM that learns multi-granularities visual tokens in a coarse-to-fine nested way, which inspires our work.
 
-- [Open-LLaVA-NeXT](https://llava-vl.github.io/): the data recipe we refer to.
+- [Open-LLaVA-NeXT](https://github.com/xiaoachen98/Open-LLaVA-NeXT): the data recipe we refer to.
 

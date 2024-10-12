@@ -3,7 +3,7 @@
 
 If you are interested in including any other details in Model Zoo, please open an issue :)
 
-The usage of LLaVA checkpoints should comply with the base LLM's model license.
+The usage of AVG-LLaVA checkpoints should comply with the base LLM's model license.
 
 ## AVG-LLaVA-Stage3
 
