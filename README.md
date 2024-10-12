@@ -8,7 +8,7 @@
 
 
 ## Release
-- [10/12] We released **AVG-LLaVA**. An LMM that can adaptively select the appropriate visual granularity based on the input image and instruction. Checkout the [paper](https://arxiv.org/abs/2410.02745).
+- **[10/12]** We released **AVG-LLaVA**. An LMM that can adaptively select the appropriate visual granularity based on the input image and instruction. Checkout the [paper](https://arxiv.org/abs/2410.02745).
 
 
 ## Contents
